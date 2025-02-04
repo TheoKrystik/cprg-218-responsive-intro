@@ -22,6 +22,11 @@ header{
 main{
     grid-area: main;
 }
+#desktop{
+    background-color: aquamarine;
+    color: black;
+    padding: 1.4rem;
+}
 
 nav{
     grid-area: nav;
@@ -41,6 +46,10 @@ footer{
         "main"
         "nav"
     "footer";
+    grid-template-columns: 1fr;
+    }
+    #desktop{
+        display: none;
     }
     
 }
