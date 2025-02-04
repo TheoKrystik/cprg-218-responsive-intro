@@ -19,6 +19,7 @@ body{
 @media  screen and (max-width: 400px) {
     body{
         background-color: #253d5b;
+        font-size: 130%;
     }
     
 }
