@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ac8181;
+    color: #f8f8ff;
+}
+
+@media screen and  (max-width: 500px){
+    /*any screen resolution from 0-500px wide*/
+
+    body{
+        background-color: #c9a959;
+    }
+} 
+
+@media  screen and (max-width: 400px) {
+    body{
+        background-color: #253d5b;
+    }
+    
+}
